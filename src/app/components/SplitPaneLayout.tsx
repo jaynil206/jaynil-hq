@@ -1,26 +1,5 @@
-'use client';
-
-import { usePathname } from 'next/navigation';
-import Nav from './Nav';
-import Canvas from './Canvas';
+import ClientLayout from './ClientLayout';
 
 export default function SplitPaneLayout({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname();
-  
-  return (
-    <div className="min-h-screen">
-      {/* Desktop Layout: Side-by-side */}
-      <div className="hidden lg:grid lg:grid-cols-[320px_1fr] lg:h-screen">
-        <Nav />
-        <Canvas>
-          {children}
-        </Canvas>
-      </div>
-      
-      {/* Mobile Layout: Full screen toggle */}
-      <div className="block lg:hidden h-screen">
-        {pathname === '/' ? <Nav /> : <Canvas>{children}</Canvas>}
-      </div>
-    </div>
-  );
+  return <ClientLayout>{children}</ClientLayout>;
 }

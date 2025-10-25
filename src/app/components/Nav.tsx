@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 
 export default function Nav() {
@@ -7,7 +5,7 @@ export default function Nav() {
     <nav className="p-8 border-r border-gray-300 h-full">
       <div className="text-left">
         <p className="text-base mb-8">
-          hi, <Link href="/jaynil" className="underline">jaynil</Link> is <Link href="/running" className="underline">running</Link> the london <Link href="/running" className="underline">marathon</Link> to raise money for <Link href="/lupus" className="underline">Lupus UK</Link> in memory of <Link href="/hiral" className="underline">Hiral</Link> (his mum).
+          hi, <Link href="/jaynil" className="underline">jaynil</Link> is <Link href="/running" className="underline">running</Link> the <Link href="/running" className="underline">london marathon</Link> to raise money for <Link href="/lupus" className="underline">Lupus UK</Link> in memory of <Link href="/hiral" className="underline">Hiral</Link> (his mum).
         </p>
         
         <div className="text-left">
