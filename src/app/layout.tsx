@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   title: "BREAKING: Local Man Attempts To Run Far For Charity. Donate To Support.",
   description: "Jaynil is running the London and Sydney Marathons to raise money for Lupus UK in memory of Hiral Patel. Click to donate and find out more.",
   openGraph: {
-    title: "BREAKING: 25 Year Old Mistakes Running For Fun. Donate To Support.",
-    description: "Help Jaynil raise money for Lupus UK in memory of Hiral Patel. Running the London and Sydney Marathon 2026.",
+    title: "BREAKING: Local Man Attempts To Run Far For Charity. Donate To Support.",
+    description: "Jaynil is running the London and Sydney Marathons to raise money for Lupus UK in memory of Hiral Patel. Click to donate and find out more.",
     images: [
       {
         url: "https://www.jaynil.xyz/images/meme-min.png",
@@ -22,6 +22,7 @@ export const metadata: Metadata = {
         height: 630,
       },
     ],
+    url: "https://www.jaynil.xyz",
   },
 };
 
