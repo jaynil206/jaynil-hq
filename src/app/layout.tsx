@@ -10,11 +10,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "BREAKING: Local Man Attempts To Run Far For Charity. Donate To Support.",
-  description: "Jaynil is running the London and Sydney Marathons to raise money for Lupus UK in memory of Hiral Patel. Click to donate and find out more.",
+  title: "BREAKING: Man Runs Far. Needs Donations To Justify It.",
+  description: "next year i (jaynil) am running the marathon to raise money for lupus uk in memory of hiral patel (my mum). please click to donate, find out more, and keep up to date with how it goes.",
   openGraph: {
-    title: "BREAKING: Local Man Attempts To Run Far For Charity. Donate To Support.",
-    description: "Jaynil is running the London and Sydney Marathons to raise money for Lupus UK in memory of Hiral Patel. Click to donate and find out more.",
+    title: "BREAKING: Man Runs Far. Needs Donations To Justify It.",
+    description: "next year i (jaynil) am running the marathon to raise money for lupus uk in memory of hiral patel (my mum). please click to donate, find out more, and keep up to date with how it goes.",
     images: [
       {
         url: "https://www.jaynil.xyz/images/meme-min.png",
