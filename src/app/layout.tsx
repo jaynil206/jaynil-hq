@@ -10,8 +10,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Jaynil x London Marathon 2026",
-  description: "Running the London Marathon for Lupus UK in memory of Hiral",
+  title: "BREAKING: Local Man Attempts To Run Far For Charity. Donate To Support.",
+  description: "Jaynil is running the London and Sydney Marathons to raise money for Lupus UK in memory of Hiral Patel. Click to donate and find out more.",
+  openGraph: {
+    title: "BREAKING: 25 Year Old Mistakes Running For Fun. Donate To Support.",
+    description: "Help Jaynil raise money for Lupus UK in memory of Hiral Patel. Running the London and Sydney Marathon 2026.",
+    images: [
+      {
+        url: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
