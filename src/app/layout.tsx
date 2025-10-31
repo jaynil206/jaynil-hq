@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     description: "Help Jaynil raise money for Lupus UK in memory of Hiral Patel. Running the London and Sydney Marathon 2026.",
     images: [
       {
-        url: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        url: "https://www.jaynil.xyz/images/meme.png",
+        width: 1200,
+        height: 630,
       },
     ],
   },
