@@ -15,7 +15,7 @@ export default function Nav() {
             rel="noopener noreferrer"
             className="text-base underline"
           >
-            donate here (link doesn't work)
+            donate here (link doesn&apos;t work)
           </a>
         </div>
       </div>
